@@ -1,0 +1,125 @@
+body
+{
+  height:100%;
+   width:100%;
+   background-image:url(http://www.runnersworld.com/sites/runnersworld.com/files/styles/article_main_image_2200px/public/june_2014_raverun_600x400.jpg?itok=8Pc6vDj4);/*your background image*/  
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/     
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.http://www.runnersworld.com/sites/runnersworld.com/files/styles/article_main_image_2200px/public/june_2014_raverun_600x400.jpg?itok=8Pc6vDj4',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.runnersworld.com/sites/runnersworld.com/files/styles/article_main_image_2200px/public/june_2014_raverun_600x400.jpg?itok=8Pc6vDj4',sizingMethod='scale')";
+}
+
+#rectangle{
+    width:520px;
+    height:260px;
+  background-color: #FFFFFF;
+   border-style: solid;
+  border-width: 5px;
+  border-color: #6B4724;
+}
+#content {
+    max-width: 1000px;
+    margin: auto;
+    left: 20%;
+    right: 8%;
+    position: absolute;
+}
+p{
+  font-family: "Walter Turncoat";
+  font-size: 20px;
+  color: #996633;
+}
+
+button
+{
+                display: block;
+                font-size: 1.1em;
+                font-weight: bold;
+                text-transform: uppercase;
+                padding: 10px 15px;
+                margin: 20px 350px;
+                color: white;
+                background-color: #8B4513;
+                background: -webkit-linear-gradient(#8B4513, #A0522D);
+                background: linear-gradient(#8B4513, #A0522D);
+                border: 0 none;
+                border-radius: 3px;
+                text-shadow: 0 -1px 0 #000;
+                box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+                cursor: pointer;
+                -webkit-transition: all 150ms ease;
+                transition: all 150ms ease;
+                margin:2px;
+                
+                
+}
+ 
+button:hover, button:focus
+{
+                -webkit-animation: pulsate 1.2s linear infinite;
+                animation: pulsate 1.2s linear infinite;
+}
+               
+@-webkit-keyframes pulsate
+{
+                0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+                50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+                100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+                               
+@keyframes pulsate
+{
+                0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+                50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+                100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+ 
+button:active
+{
+                color: #fff;
+                text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff;
+                box-shadow: 0 1px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0,0,0,0.9);
+                -webkit-transform: translateY(3px);
+                transform: translateY(3px);
+                -webkit-animation: none;
+                animation: none;
+}
+
+h1{
+  font-family: "Walter Turncoat";
+  font-size: 20px;
+  color: #996633;
+}
+
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-padding-end: 10px;
+    -moz-padding-end: 10px;
+    -webkit-padding-start: 1px;
+    -moz-padding-start: 1px;
+    background-color: white; /* fallback color if gradients are not supported */
+    background-image: url(../images/select-arrow.png), -webkit-linear-gradient(top, #E5E5E5, #F4F4F4); /* For Chrome and Safari */
+    background-image: url(../images/select-arrow.png), -moz-linear-gradient(top, #E5E5E5, #F4F4F4); /* For old Fx (3.6 to 15) */
+    background-image: url(../images/select-arrow.png), -ms-linear-gradient(top, #E5E5E5, #F4F4F4); /* For pre-releases of IE 10*/
+    background-image: url(../images/select-arrow.png), -o-linear-gradient(top, #E5E5E5, #F4F4F4); /* For old Opera (11.1 to 12.0) */ 
+    background-image: url(../images/select-arrow.png), linear-gradient(to bottom, #E5E5E5, #F4F4F4); /* Standard syntax; must be last */
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #555;
+    font-size: inherit;
+    font-family: 'Walter Turncoat', cursive; 
+    margin: 0;
+    overflow: hidden;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+

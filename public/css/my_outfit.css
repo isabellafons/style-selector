@@ -1,0 +1,35 @@
+body
+{
+  height:100%;
+   width:100%;
+   background-image:url(http://www.anikamari.com/wp-content/uploads/2015/01/pull-out-wire-baskets-feat-beautiful-designing-a-walk-in-closet-with-corner-clothes-rod-and-modern-area-rug.jpg);/*your background image*/  
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/     
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.anikamari.com/wp-content/uploads/2015/01/pull-out-wire-baskets-feat-beautiful-designing-a-walk-in-closet-with-corner-clothes-rod-and-modern-area-rug.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.anikamari.com/wp-content/uploads/2015/01/pull-out-wire-baskets-feat-beautiful-designing-a-walk-in-closet-with-corner-clothes-rod-and-modern-area-rug.jpg',sizingMethod='scale')";
+}
+h1{
+  font-family: 'Pinyon Script';
+	font-size: 80px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 20px;
+  color:black
+}
+h2{
+  font-family: "Walter Turncoat";
+  color:black
+}
+#rectangle {
+	width: 750px;
+	height: 375px;
+  background-color: #FFFFFF;
+   border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+#shoe{
+  color: #FF0066
+}

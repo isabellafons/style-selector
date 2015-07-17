@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Style Selector</title>
+   <link rel = "stylesheet" href = "css/result.css" type = "text/css">
+ </head>
+ <body>
+   
+   
+   <br><br><br><br>
+
+   <center>
+   <h1><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pinyon+Script" /> Your Outfit for the Day!</h1>
+      <div id = "rectangle">
+   <h2><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Walter+Turncoat" /> The shoes you should wear are <div id = "shoe"><%=@shoe_result%></div> </h2>
+   <h2><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Walter+Turncoat" /> Due to the current weather, you will need a <div id = "shoe"> <%=@condition_result%> </div></h2>
+   <h2><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Walter+Turncoat" /> Due to the current temperature, you should wear <div id = "shoe"><%=@degree_result%></div> </h2>
+   <h2><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Walter+Turncoat" /> In order to fit your style, you should accessorize with a <div id = "shoe"><%=@style_result%></div> 
+       
+    
+          </h2>
+   </form>
+     
+     </div>
+      <form action="/index" method="POST">
+   <button class= "floated" type="Submit" value="Submit">Start Over! <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Walter+Turncoat" /></button>
+   </form>
+   </center>
+  
+ 
+ </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+   <link rel="stylesheet" href="css/droptwo.css" type="text/css">
+  <title>Style Selector</title>
+ </head>
+ <body>
+   <center>
+     
+     <br><br><br><br><br><br><br><br><br>
+  
+     
+     <div id="rectangle">
+       
+       <h1><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Walter+Turncoat" /> What is your day like? </h1>
+       
+       
+       <p><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Walter+Turncoat" /> Activity:
+     
+     
+   <select name="activity" form="Actform">
+       <option value = " ------- "> -------- </option>
+     <option value="Running or Biking">Running or Biking</option>
+     <option value="water">Water Day</option>
+     <option value="Walking">Walking</option>
+     <option value="Hiking">Hiking</option>
+   </select>
+       
+       <br>
+         Condition:
+   
+   <select name = "condition" form= "Actform">
+       <option value = " ------- "> -------- </option>
+     <option value="Sunny"> Sunny </option>
+     <option value = "Raining"> Raining </option>
+     <option value ="Snowing"> Snowing </option>
+   </select>
+       
+       <br>
+         
+         Temperature(°F):
+   
+   <select name= "degrees" form = "Actform">
+       <option value = " ------- "> -------- </option>
+     <option value = "below 32"> Below 32 </option>
+     <option value = "32-59">32-59</option>
+     <option value = "60-79">60-79</option>
+     <option value = "80+">80+</option>
+   </select>
+   
+       <br>
+      
+      Style:
+         
+         
+<select name= "style" form = "Actform">
+    <option value = " ------- "> -------- </option>
+     <option value = "bohemian"> bohemian </option>
+     <option value = "preppy">preppy</option>
+     <option value = "sophisticated">sophisticated</option>
+     <option value = "flashy">flashy</option>
+   </select>
+   
+   <br>
+   
+   <form id="Actform" method="POST" action="/outsideresult">
+    <button type="submit" value="submit">Submit</button>
+   </form>
+   
+   
+     </div>
+   </center>
+ </body>
+</html>

@@ -1,0 +1,155 @@
+body
+{
+  height:100%;
+   width:100%;
+   background-image:url(http://www.anikamari.com/wp-content/uploads/2015/01/pull-out-wire-baskets-feat-beautiful-designing-a-walk-in-closet-with-corner-clothes-rod-and-modern-area-rug.jpg);/*your background image*/  
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/     
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.anikamari.com/wp-content/uploads/2015/01/pull-out-wire-baskets-feat-beautiful-designing-a-walk-in-closet-with-corner-clothes-rod-and-modern-area-rug.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.anikamari.com/wp-content/uploads/2015/01/pull-out-wire-baskets-feat-beautiful-designing-a-walk-in-closet-with-corner-clothes-rod-and-modern-area-rug.jpg',sizingMethod='scale')";
+}
+h1{
+  font-family: 'Pinyon Script';
+	font-size: 80px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 20px;
+  color:black
+}
+h2{
+  font-family: "Walter Turncoat";
+  color:black
+}
+#rectangle {
+	width: 750px;
+	height:400px;
+  background-color: #FFFFFF;
+   border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+#shoe{
+  color: #FF0066
+}
+
+
+
+originalbutton{
+  font-family: "Walter Turncoat";
+  font-size: 25px;
+  color: #FF0066
+}
+
+
+
+hrj { color: white; font: bold 52px Helvetica, Arial, Sans-Serif;
+		       text-shadow: 1px 1px #fe4902, 2px 2px #fe4902, 3px 3px #fe4902;
+		       -webkit-transition: all 0.12s ease-out;
+		       -moz-transition: all 0.12s ease-out;
+		       -o-transition: all 0.12s ease-out;
+		}
+		hrj:hover {
+		    position: relative; top: -3px; left: -3px; 
+		    text-shadow: 1px 1px #fe4902, 2px 2px #fe4902, 3px 3px #fe4902, 4px 4px #fe4902, 5px 5px #fe4902, 6px 6px #fe4902;
+		}
+
+
+
+
+button
+{
+                display: block;
+                font-size: 1.1em;
+                font-weight: bold;
+                text-transform: uppercase;
+                padding: 10px 15px;
+                margin: 20px 350px;
+                color: white;
+                background-color: #c83760;
+                background: -webkit-linear-gradient(#e61448, #c83760);
+                background: linear-gradient(#e61448, #c83760);
+                border: 0 none;
+                border-radius: 3px;
+                text-shadow: 0 -1px 0 #000;
+                box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+                cursor: pointer;
+                -webkit-transition: all 150ms ease;
+                transition: all 150ms ease;
+}
+ 
+button:hover, button:focus
+{
+                -webkit-animation: pulsate 1.2s linear infinite;
+                animation: pulsate 1.2s linear infinite;
+}
+               
+@-webkit-keyframes pulsate
+{
+                0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+                50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+                100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+                               
+@keyframes pulsate
+{
+                0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+                50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+                100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+ 
+button:active
+{
+                color: #fff;
+                text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff;
+                box-shadow: 0 1px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0,0,0,0.9);
+                -webkit-transform: translateY(3px);
+                transform: translateY(3px);
+                -webkit-animation: none;
+                animation: none;
+}
+ white;
+                background-color: #c83760;
+                background: -webkit-linear-gradient(#e61448, #c83760);
+                background: linear-gradient(#e61448, #c83760);
+                border: 0 none;
+                border-radius: 3px;
+                text-shadow: 0 -1px 0 #000;
+                box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+                cursor: pointer;
+                -webkit-transition: all 150ms ease;
+                transition: all 150ms ease;
+}
+ 
+button:hover, button:focus
+{
+                -webkit-animation: pulsate 1.2s linear infinite;
+                animation: pulsate 1.2s linear infinite;
+}
+               
+@-webkit-keyframes pulsate
+{
+                0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+                50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+                100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+                               
+@keyframes pulsate
+{
+                0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+                50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+                100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+ 
+button:active
+{
+                color: #fff;
+                text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff;
+                box-shadow: 0 1px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0,0,0,0.9);
+                -webkit-transform: translateY(3px);
+                transform: translateY(3px);
+                -webkit-animation: none;
+                animation: none;
+}
+

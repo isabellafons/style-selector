@@ -1,0 +1,160 @@
+p{
+  color: #ff0066;
+}
+
+form{ 
+display: inline;
+}
+
+body
+{
+  height:100%;
+   width:100%;
+   background-image:url(http://www.pbteen.com/ptimgs/ab/images/i/201523/0006/images/design-studio/rooms/girls/girls-bedroom-smd1-14-13.jpg);/*your background image*/  
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/     
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.pbteen.com/ptimgs/ab/images/i/201523/0006/images/design-studio/rooms/girls/girls-bedroom-smd1-14-13.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.pbteen.com/ptimgs/ab/images/i/201523/0006/images/design-studio/rooms/girls/girls-bedroom-smd1-14-13.jpg',sizingMethod='scale')";
+}
+
+#rectangle{
+    width:820px;
+    height:480px;
+  background-color: #FFFFFF;
+   border-style: solid ;
+  border-width: 5px;
+  border-color: #FF0066;
+}
+#content {
+    max-width: 1000px;
+    margin: auto;
+    left: 20%;
+    right: 8%;
+    position: absolute;
+}
+
+p{
+  font-family: "Walter Turncoat";
+  font-size: 25px;
+  color: #FF0066
+}
+
+originalbutton{
+  font-family: "Walter Turncoat";
+  font-size: 25px;
+  color: #FF0066
+}
+
+
+
+hrj { color: white; font: bold 52px Helvetica, Arial, Sans-Serif;
+		       text-shadow: 1px 1px #fe4902, 2px 2px #fe4902, 3px 3px #fe4902;
+		       -webkit-transition: all 0.12s ease-out;
+		       -moz-transition: all 0.12s ease-out;
+		       -o-transition: all 0.12s ease-out;
+		}
+		hrj:hover {
+		    position: relative; top: -3px; left: -3px; 
+		    text-shadow: 1px 1px #fe4902, 2px 2px #fe4902, 3px 3px #fe4902, 4px 4px #fe4902, 5px 5px #fe4902, 6px 6px #fe4902;
+		}
+
+
+
+
+button
+{
+                display: block;
+                font-size: 1.1em;
+                font-weight: bold;
+                text-transform: uppercase;
+                padding: 10px 15px;
+                margin: 20px 350px;
+                color: white;
+                background-color: #c83760;
+                background: -webkit-linear-gradient(#e61448, #c83760);
+                background: linear-gradient(#e61448, #c83760);
+                border: 0 none;
+                border-radius: 3px;
+                text-shadow: 0 -1px 0 #000;
+                box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+                cursor: pointer;
+                -webkit-transition: all 150ms ease;
+                transition: all 150ms ease;
+}
+ 
+button:hover, button:focus
+{
+                -webkit-animation: pulsate 1.2s linear infinite;
+                animation: pulsate 1.2s linear infinite;
+}
+               
+@-webkit-keyframes pulsate
+{
+                0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+                50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+                100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+                               
+@keyframes pulsate
+{
+                0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+                50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+                100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+ 
+button:active
+{
+                color: #fff;
+                text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff;
+                box-shadow: 0 1px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0,0,0,0.9);
+                -webkit-transform: translateY(3px);
+                transform: translateY(3px);
+                -webkit-animation: none;
+                animation: none;
+}
+ white;
+                background-color: #c83760;
+                background: -webkit-linear-gradient(#e61448, #c83760);
+                background: linear-gradient(#e61448, #c83760);
+                border: 0 none;
+                border-radius: 3px;
+                text-shadow: 0 -1px 0 #000;
+                box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+                cursor: pointer;
+                -webkit-transition: all 150ms ease;
+                transition: all 150ms ease;
+}
+ 
+button:hover, button:focus
+{
+                -webkit-animation: pulsate 1.2s linear infinite;
+                animation: pulsate 1.2s linear infinite;
+}
+               
+@-webkit-keyframes pulsate
+{
+                0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+                50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+                100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+                               
+@keyframes pulsate
+{
+                0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+                50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+                100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+ 
+button:active
+{
+                color: #fff;
+                text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff;
+                box-shadow: 0 1px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0,0,0,0.9);
+                -webkit-transform: translateY(3px);
+                transform: translateY(3px);
+                -webkit-animation: none;
+                animation: none;
+}
+
+               
